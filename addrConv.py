@@ -37,7 +37,6 @@ args = parser.parse_args()
 answer = ' '
 if args.logical:#alculate the logical address from either the cluster address or the physical address. Either –c or -p must be given
 	answer = args.phyAddknow - args.offset
-	print data
 if args.physical:#Calculate the physical address from either the cluster addressor the logical address. Either –c or –l must be given.
 	answer =
 if args.cluster:#Calculate the cluster address from either the logical address or the physical address. Either –l or –p must be given.
